@@ -1,12 +1,12 @@
-import streamlit as st
+import streamlit as st # type: ignore
 import os
-from PyPDF2 import PdfReader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
-from langchain_community.vectorstores import FAISS
-from langchain.chains.combine_documents.stuff import create_stuff_documents_chain
-from langchain.chains import create_retrieval_chain
-from langchain.prompts import PromptTemplate
+from PyPDF2 import PdfReader # type: ignore
+from langchain.text_splitter import RecursiveCharacterTextSplitter # type: ignore
+from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI # type: ignore
+from langchain_community.vectorstores import FAISS # type: ignore
+from langchain.chains.combine_documents.stuff import create_stuff_documents_chain # type: ignore
+from langchain.chains import create_retrieval_chain # type: ignore
+from langchain.prompts import PromptTemplate # type: ignore
 from dotenv import load_dotenv
 import logging
 
