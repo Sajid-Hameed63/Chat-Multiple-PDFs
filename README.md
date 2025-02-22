@@ -1,4 +1,4 @@
-# Chat-Multiple-PDFs 📚
+# RAG-Chat-Multiple-PDFs 📚
 
 This is a **Streamlit-based application** that allows users to upload multiple PDF files and ask questions about their content using **Google Gemini AI** and **FAISS for vector storage**.
 
@@ -28,8 +28,8 @@ Ensure you have the following installed:
 ## Installation
 ```sh
 # Clone the repository
-git clone https://github.com/Sajid-Hameed63/Chat-Multiple-PDFs
-cd Chat-Multiple-PDFs
+git clone https://github.com/Sajid-Hameed63/RAG-Chat-Multiple-PDFs
+cd RAG-Chat-Multiple-PDFs
 
 # Create a virtual environment
 python -m venv venv
