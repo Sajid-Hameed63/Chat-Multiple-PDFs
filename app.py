@@ -72,13 +72,24 @@ def get_vector_store(text_chunks):
 def get_conversational_chain():
     try:
         prompt_template = """
-        Answer based on the context. If query is not related to the context, tell them to ask questions related to their documents.
+        Answer based on the provided context. If the query is unrelated to the context, provide a general response from external knowledge sources.
         
         Context: {context}
         
         Question: {input}
         
         Answer:"""
+
+
+        # prompt for not revealing system details
+        # prompt_template = """
+        # Provide answers based on the given context. If the query is unrelated to the provided context, respond with relevant general information without revealing system details.
+        
+        # Context: {context}
+        
+        # Question: {input}
+        
+        # Answer:"""
         
         model = ChatGoogleGenerativeAI(
             model="gemini-1.5-flash-002",

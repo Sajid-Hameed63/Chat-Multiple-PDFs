@@ -10,10 +10,14 @@ This is a **Streamlit-based application** that allows users to upload multiple P
 - 💾 **Persistent document index** to avoid reprocessing.
 - 🗨️ **Chat history storage** for better interaction.
 
+## Deployment
+
+🚀 This application is **deployed on Hugging Face Space** for easy access and usage. You can try it out [here](https://huggingface.co/spaces/sajidhameed63/Chat-with-Your-PDFs). 
+
 ## Requirements
 Ensure you have the following installed:
 
-- Python 3.8+
+- Python 3.8+ (I used 3.10)
 - Streamlit
 - PyPDF2
 - LangChain
